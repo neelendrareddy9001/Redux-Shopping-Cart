@@ -31,7 +31,7 @@ return (
             <hr/>
             <div className='cart-total'>
                 <h4>
-                    Toatal <span>${total}</span>
+                    Toatal <span>${total.tofixed(2)}</span>
                 </h4>
             </div>
             <button className='btn clear-btn' onClick={()} => dispatch(clearCart())>Clear Cart</button>
